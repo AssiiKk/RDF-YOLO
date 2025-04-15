@@ -11,7 +11,7 @@ RDF-YOLO is an improved object detection model tailored for small object detecti
 
 ## 🗂 Project Structure
 
-. ├── datasets/ # Dataset config files (e.g. AITOD.yaml) ├── yolo11m_CF.yaml # Custom model configuration file ├── train.py # Training entry script ├── val.py # Validation/evaluation script (with APvt, APt, APs metrics) └── ultralytics/nn/conv.py # Modified YOLOv11 backbone containing RepViT and DFM
+. ├── datasets/ # Dataset config files (e.g. AITOD.yaml) ├── yolo11m_CF.yaml # Custom model configuration file ├── train.py # Training entry script  └── ultralytics/nn/conv.py # Modified YOLOv11 backbone containing RepViT and DFM
 
 
 > This repository is a fork of [YOLOv11](https://github.com/ultralytics/ultralytics) with custom modules added to support RDF-YOLO.
@@ -28,17 +28,15 @@ Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
+```
 
-🚀 Getting Started
+## 🚀 Getting Started
 Training
 
 python train.py --model yolo11m_CF.yaml --data datasets/AITOD.yaml --epochs 600 --batch 16
 
 
-📄 Citation
-
-If you find this project useful, please consider citing the original YOLOv11 paper and our work (citation to be added).
-📜 License
+## 📜 License
 
 This project inherits the original YOLOv11 AGPL-3.0 License.
 
