@@ -1,0 +1,12 @@
+torch
+timm==0.5.4 
+fvcore
+torch-pruning==1.5.2
+torchinfo==1.8.0
+opencv-python
+tqdm
+PyYAML
+matplotlib
+numpy
+opencv-python
+scipy
